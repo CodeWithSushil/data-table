@@ -1,0 +1,34 @@
+#Button1 {
+  background-image: none;
+  color: #fff;
+  padding: 8px;
+  background-color: #007bff;
+  border-color: #007bff;
+  border-radius: 20px 20px 0 20px !important;
+  min-width: 120px;
+  cursor: pointer;
+}
+
+@media print,
+screen {
+  .printable {
+    page-break-after: always;
+  }
+
+  body {
+    font-family: arial;
+    font-size: 12px;
+  }
+
+}
+
+/*
+.printable {
+  page-break-after: always;
+}
+
+body {
+  font-family: arial;
+  font-size: 12px;
+}
+*/
